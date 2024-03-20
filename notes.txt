@@ -1,0 +1,8 @@
+//Arquivo onde ficarao armazenadas as queries
+
+insert into course(id, name, author)
+values (1, 'Learn Spring Data', 'Spring academy');
+
+select * from course;
+
+delete from course where id=1;
